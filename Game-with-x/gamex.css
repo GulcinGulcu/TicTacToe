@@ -1,0 +1,69 @@
+body {
+    position: relative;
+}
+
+.container {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 70%;
+}
+
+.card {
+    text-align: center;
+    font-size: 7em;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+
+}
+
+#one, #two, #four, #five {
+  border-right: 10px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 10px solid rgba(255, 255, 255, 0.6);
+}
+
+#three, #six {
+   border-bottom: 10px solid rgba(255, 255, 255, 0.6);
+}
+
+#seven, #eight {
+    border-right: 10px solid rgba(255, 255, 255, 0.6);
+}
+
+.success-message-computer, .success-message-player, .message-draw {
+    display: none;
+    position: absolute;
+    top: 4%;
+    left: 40%;
+    font-size: 2em;
+    color: red;
+    font-family: 'Titan One', sans-serif;
+    letter-spacing: 2px;
+}
+
+.btn-play-again {
+   position: absolute;
+   color: rgba(255, 255, 255, 0.6);
+   top: 40%;
+   margin-left: 15px;
+   font-size: 4.5em;
+   right: 10%;
+   border: 4px solid rgba(255, 255, 255, 0.6);
+   cursor: pointer;
+   padding: 12px;
+   border-radius: 4px;
+   transition: all 0.4s;
+   display: none;
+}
+
+.btn-play-again:hover {
+    color: red;
+}
+
+
+

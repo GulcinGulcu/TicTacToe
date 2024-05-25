@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Titan One', sans-serif;
+    background: linear-gradient(-45deg,  #19220f, #354720);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    border: 5px solid #fff;
+    padding: 8px;
+    margin-right: 15px;
+    font-size: 1.8em;
+    transition: all 0.5s;
+    border-radius: 5px;
+
+}
